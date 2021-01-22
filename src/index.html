@@ -6,11 +6,101 @@
   <title>Project Starter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="stylesheets/main.css">
+  <script src="https://kit.fontawesome.com/40a55ff383.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!--  Your HTML goes here-->
+<div class="query_column">
+  <section class="title_section">
+    <h1 class="main_title">My Blog</h1>
+    <input type="text" placeholder="Type to Search" class="search">
+  </section>
+  
+  <header>
+    
+    <nav class="nav_list">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Recent Posts</a></li>
+          <li><a href="#">Old Posts</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+      </ul>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fas fa-bars"></i>
+      </a>
+  </nav>
+  </header>
+</div>
+  <main>
+  <section class="posts">
+    <div class="first_post_div">
+      <img src="images/web_coding.jpg" alt="first_post" class="post_imgs">
+    </div>
+    <div class="posts_text">
+      <h1>First post with image</h1>
+      <p>Posted by: Jake Cottam    January 22nd, 2021</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+         quis blandit eros. Etiam dignissim malesuada felis vel interdum.
+        Sed nec metus porta odio facilisis rutrum. Etiam quam mi, consequat
+        condimentum eros in, sodales porttitor sem. Nam quis ligula vitae
+        neque hendrerit condimentum in sed turpis. Vestibulum diam nunc,
+        blandit ut tincidunt in, convallis non erat. Vestibulum ac molestie
+        elit. Integer efficitur mauris risus, non iaculis orci vulputate 
+        quis. Fusce tempus vel augue et malesuada. Mauris faucibus nisl
+        eget tortor mattis sodales. Duis quis est ut metus commodo sagittis
+        ut vitae neque. In hac habitasse platea dictumst. Curabitur
+        vitae ornare nisl. Nulla cursus maximus lorem, quis pretium
+        nulla accumsan sed. Cras accumsan accumsan neque, in lacinia
+        ex dictum at. Sed sed augue at tortor sodales dapibus eget id lacus.</p>
+    <div class="read_more_div">
+      <a href="#" target="_blank"><button type="button" class="read_more_button">Read More</button></a>
+    </div>
+    </div>
+  <br>
+  <hr>
+    <div class="second_post_div">
+      <img src="images/example_website.png" alt="second_post" class="post_imgs">
+      <h1>Second post with image</h1>
+      <p>Posted by: Jake Cottam    January 22nd, 2021</p>
+      <p>Mauris ultricies vestibulum odio, a ornare nulla dignissim in. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac justo ultrices,
+      rhoncus libero quis, aliquam purus. Nulla placerat, lorem quis elementum 
+      fermentum, ex lacus tincidunt sapien, id tincidunt dui lacus vel enim. 
+      Aenean non semper enim. Etiam aliquam rutrum enim eget pulvinar. Phasellus 
+      semper sapien a quam scelerisque dapibus. Morbi in lobortis ligula, in 
+      tempus dui. Suspendisse vitae mollis est. Class aptent taciti sociosqu ad 
+      litora torquent per conubia nostra, per inceptos himenaeos. Sed id lacus 
+      sed sem commodo convallis eget nec ex.</p>
+      <div class="read_more_div">
+        <a href="#" target="_blank"><button type="button" class="read_more_button">Read More</button></a>
+      </div>
+    </div>
+  <br>
+  <hr>
+  </section>
 
-  <script src="javascripts/main.js"></script>
+  <section class="prev_next">
+    <div class="prev_next_positioning">
+      <a href="#" target="_blank"><button type="button" id="read_more_button">Prev</button></a>
+        <p>1/4</p>
+      <a href="#" target="_blank"><button type="button" id="read_more_button">Next</button></a>
+    </div>
+    </section>
+
+  </main>
+
+    <footer>
+      <div class="footer_div">
+        <ul class="footer_social">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Google+</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p class="copyright_style">&#169; Copyright 2021 All Rights Reserved</p>
+      </div>
+    </footer>
 </body>
 </html>
